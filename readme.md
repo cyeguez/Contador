@@ -6,13 +6,12 @@ Descripción: Este proyecto es como una especie de recto, el  cual consiste en u
 
 | Mobile                   | Desktop                   |
 | ------------------------ | ------------------------- |
-| ![](./images/screenshot-view-mobile.png) | ![](./images/screenshot-view-desktop.png) |
+| ![](./images/mobile-view.png) | ![](./images/desktop-view.png) |
 
 ### Links
 
 - Solución
-
-  URL: https://cyeguez.github.io/3-column-preview-card-component-main/
+https://cyeguez.github.io/Contador/
 
 
 
