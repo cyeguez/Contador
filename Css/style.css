@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 65.5%;
+}
+
+body {
+  background-color: #3e54b0;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+main {
+  width: 100vw;
+}
+
+.container {
+  width: 100%;
+}
+
+.content {
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  border-radius: 36px;
+  background: #3e54b0;
+  box-shadow: 9px 9px 28px #2f3f84, -9px -9px 28px #4e69dc;
+}
+
+.title {
+  font-size: 2rem;
+  color: white;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+#count {
+  font-size: 6rem;
+  color: white;
+}
+
+.btn {
+  width: 50px;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  
+  
+}
+
+.material-symbols-rounded {
+  color: #3e54b0;
+}
+
+.btn:hover {
+  color: white;
+  
+
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background: #ea523c;
+  }
+  .content {
+    width: 300px;
+    height: 350px;
+    border-radius: 36px;
+    background: #ea523c;
+    box-shadow: 9px 9px 28px #b03e2d, -9px -9px 28px #ff674b;
+  }
+
+  .btn {
+    background: white;
+  }
+
+  .material-symbols-rounded {
+    color: #ea523c;
+  }
+}
